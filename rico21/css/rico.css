@@ -1,0 +1,43 @@
+#pulldownheader{
+    margin: 0px 0px;
+    /*padding:3px;*/
+    position: relative;
+    /*border: 1px solid;*/
+    /*border: 1px solid #6b795a;*/
+}
+#toppanel {
+    /*background-color : white;
+    height: 17px;*/
+    /*margin: 0px;/*3px;*/
+    /*padding-left:5px;*/
+    /*padding-top:3px;*/
+    position: relative;
+    /*vertical-align: middle;*/
+    /*border: 1px solid #6b795a;*/
+    /*width: 600px;*/
+    font-weight: bold;
+}
+.innerpanel {
+    position: relative;
+    top: 0px;
+    /*background-color: white;*/
+    margin:0px;
+    /*border: 1px solid #6b795a;*/
+}
+.outerpanel {
+    overflow: hidden;
+    position: absolute;/*relative;*/
+    /*z-index: 1600;*/
+    top: 0px;
+    margin:0px;
+    /*padding-left: 15px;*/
+    /*top: 17px;*/
+    /*width: 583px*/
+    /*border: 1px solid #6b795a;*/
+    /*z-index:1;*/
+}
+/*pre {font-size: 11px;}*/
+#toppanel img, a, a:link {
+    text-decoration:none;
+    border: none;
+}

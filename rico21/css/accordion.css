@@ -1,0 +1,40 @@
+/*
+body, p {
+	font-family : Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+*/
+h1 { font-size: 16pt; }
+
+.panelheader {
+  background-color : #6b79a5;
+  height: 26px;
+  color : #ced7ef;
+  font-weight : normal;
+  border-bottom:1px solid #182052;
+  border-top:1px solid #BDC7E7;
+  font-weight : normal;
+  padding-left: 5px;
+}
+
+.mdHover {
+  background-color : #63699c;
+  color : #ffffff;
+}
+.mdSelected {
+  background-color : #63699c;
+  color : #ffffff;
+  font-weight : bold;
+
+}
+.panelContent {
+  border : 1px solid #1f669b;
+  border-top-width    : 0px;
+  border-bottom-width : 0px;
+  font-size: smaller;
+  overflow: auto;
+}
+#accordionExample {
+  margin-top : 6px;
+  border : 1px solid #4f4f4f;
+  width: 500px;
+}

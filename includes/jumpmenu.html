@@ -1,0 +1,15 @@
+Jump to a page:
+<form name="form" id="form">
+    <select name="jumpMenu" id="jumpMenu">
+        <option selected="selected">Select a page</option>
+        <option value="http://obaq.zymichost.com/">ObaQ Blog</option>
+        <option value="http://obaq.zymichost.com/?p=236">Rico Ajax Menu</option>
+        <option value="http://obaq.zymichost.com/?p=271">Simple Obfuscation</option>
+        <option value="http://obaq.zymichost.com/?p=266">Scatter Gallery</option>
+        <option value="http://obaq.zymichost.com/?p=265">Pages to Page plugin</option>
+        <option value="http://obaq.zymichost.com/?p=242">Dojo Fisheye Gallery</option>
+    </select>
+    <input name="go_button" id="go_button" value="Go" onclick="if(document.getElementById('form').jumpMenu.selectedIndex!=0)
+        self.location=document.getElementById('form').jumpMenu.options[document.getElementById('form').jumpMenu.selectedIndex].value" type="button">
+</form>
+<br>
